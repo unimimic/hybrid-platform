@@ -1,0 +1,37 @@
+- app.js (主應用程式入口)
+- modules
+  - module1
+    - routes
+      - module1Routes.js
+    - controllers
+      - module1Controller.js
+    - models
+      - module1Model.js
+    - middleware
+      - module1Middleware.js
+    - config
+      - module1Config.js
+    - utils
+      - module1Utils.js
+    - tests
+      - unitTests
+      - integrationTests
+    - public
+    - views
+  - ... (其他模組)
+- shared
+  - routes
+    - sharedRoutes.js (共享的路由，例如驗證、登入等)
+  - controllers
+    - sharedController.js (共享的控制器，例如通用業務邏輯)
+  - models
+    - sharedModel.js (共享的資料模型，例如用戶模型)
+  - middleware
+    - sharedMiddleware.js (共享的中介軟體，例如驗證中介軟體)
+  - config
+    - sharedConfig.js (共享的配置，例如數據庫配置)
+  - utils
+    - sharedUtils.js (共享的工具函數)
+  - tests
+    - sharedUnitTests
+    - sharedIntegrationTests
